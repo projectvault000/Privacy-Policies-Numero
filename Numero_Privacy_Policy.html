@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Numero privacy policy - review draft</title>
+  <style>
+    body { max-width: 780px; margin: 0 auto; padding: 24px; font: 1rem/1.65 system-ui, sans-serif; color: #172238; background: #fff; }
+    h1, h2 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    .draft { padding: 16px; border: 2px solid #8c6000; background: #fff7df; }
+    a { color: #174ba0; }
+  </style>
+</head>
+<body>
+  <aside class="draft"><strong>Unpublished review draft, 3 November 2026.</strong>
+    Confirm operator identity, distribution countries and provider disclosures before publication.
+    This candidate describes the local Stage 2 implementation; it does not announce a deployed app update.
+    Effective date: [CONFIRM BEFORE PUBLICATION].</aside>
+  <h1>Privacy policy for Numero</h1>
+  <p>Numero is a numeracy learning app for students in grades 1 to 12, approximately ages 6 to 18.
+    Operator: [CONFIRM OPERATOR NAME]. This policy explains local learner information,
+    optional exports and the network services used by the app.</p>
+  <h2>1. Learner profiles and local learning information</h2>
+  <p>When a learner profile is created, Numero saves the learner's name, username,
+    Learner Reference Number (LRN), school ID, grade and section on the device.
+    A PIN protects access to the profile and is represented by a salted hash, not a stored plaintext PIN.
+    The app saves practice, assessments, learning levels, progress and virtual rewards to support learning
+    and identification of results by teachers. The current app does not create an online learner account
+    or automatically upload learner profiles or results to an operator server.</p>
+  <h2>2. Camera, images and QR codes</h2>
+  <p>Camera permission is used to decode QR codes locally. Supported QR images and backup files
+    can also be selected using the system file picker. The reviewed app does not upload camera frames
+    or selected QR images for remote decoding.</p>
+  <h2>3. Results and backups you choose to export</h2>
+  <p>A results QR can contain the learner's name, identifiers, grade, section, progress and assessment results.
+    Anyone able to scan or copy it may read the contents. Share it only with the intended teacher or recipient.
+    Records received by a teacher or school are subject to that recipient's handling and retention.</p>
+  <p>A recovery backup is different from a results QR. Recovery files and QR images are encrypted and
+    require the PIN or passphrase used to create them. You choose where exported files are saved through
+    the system file picker. If you select a cloud storage provider, that provider may store the exported file
+    under its own terms. Protect the backup and its credential.</p>
+  <h2>4. Internet services and advertising</h2>
+  <p>Numero downloads public school configuration and learning content from Google spreadsheets.
+    The service receives connection metadata such as the device IP address. These requests are not
+    automatic learner-profile or assessment-result uploads. Bundled or saved learning content works offline.</p>
+  <p>Numero integrates Google Mobile Ads and Google's User Messaging Platform. Depending on the enabled
+    services and configuration, these providers process connection data, ad interactions, diagnostics and
+    SDK identifiers for advertising, performance measurement and fraud prevention.
+    See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
+  <p>The current local implementation requests child-directed, under-age and general-audience advertising
+    for all learner profiles, disables publisher first-party ID and does not request advertising-ID or
+    AdServices permissions. Learner names, LRN, school details and results are not supplied to the ads SDK
+    for targeting. Visual themes do not determine age eligibility. These settings do not mean that network
+    services receive no information. Learning remains available when ads or consent services are unavailable.
+    Where the consent service requires an options entry point, Profile offers Ad privacy choices.</p>
+  <h2>5. Storage, security and retention</h2>
+  <p>The learning database uses SQLCipher encryption. A random database passphrase is wrapped using an
+    Android Keystore key. Saved teacher-test data also uses encrypted local storage. These measures do not
+    protect against every threat, including an unlocked or compromised device.</p>
+  <p>Local learner data remains until removed from the device. The app does not impose an automatic
+    expiration on saved learner profiles. Exported files, information already received by others and
+    provider-held information have separate retention periods.
+    [CONFIRM APPLICABLE PROVIDER RETENTION AND PRIVACY REQUEST CHANNELS BEFORE PUBLICATION.]</p>
+  <h2>6. Deletion and your choices</h2>
+  <p>In Profile, select Delete profile and enter the learner's PIN. This removes that learner's local
+    profile and related progress, rewards and saved tests; other profiles remain. Local data can also be
+    removed using system app-data controls or uninstalling the app.</p>
+  <p>Deletion does not erase independent backup files, QR images, records already received by a school
+    or teacher, or information held by advertising/storage providers. A saved recovery backup may still
+    restore its saved contents. Delete exported copies you control and contact their recipients or
+    providers about copies they retain. This app does not present local removal as deletion of a server account.</p>
+  <p>You can decline camera permission, use supported file alternatives, learn offline, review applicable
+    ad privacy choices and delete local profiles. Contact the operator for privacy questions.</p>
+  <h2>7. Children and families</h2>
+  <p>Numero serves school-age students, including children. The same protective advertising settings
+    apply to both visual themes. No exact birth date is collected for advertising eligibility.
+    Parents, guardians and schools should help learners protect their PIN and avoid sharing results
+    with unintended recipients. Distribution countries and any additional regional notices must be
+    confirmed before this draft is published.</p>
+  <h2>8. Policy changes</h2>
+  <p>When data handling changes, the operator will update the published policy and its effective date
+    and provide additional notices or choices where applicable. The published policy and Play disclosures
+    must match the app version being distributed.</p>
+  <h2>9. Contact</h2>
+  <p>Operator: [CONFIRM NAME]. Privacy contact:
+    <a href="mailto:richard.devera0092@gmail.com">richard.devera0092@gmail.com</a>.</p>
+  <p>The privacy contact email was supplied by the owner. Confirm the operator name and remove
+    the remaining review markers before publication.</p>
+</body>
+</html>
